@@ -1,0 +1,76 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 20px;
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-family: 'Allerta Stencil', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center; 
+}
+h2 {
+  font-family: Helvetica;
+  color: grey;
+  font-weight: bolder;
+  font-size: 32px;
+  text-align: center;
+}
+a {
+  color: green;
+  text-align: center;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: none;
+  color: purple; 
+}
+
+#banner{
+  text-align: center;
+  background-image: url("images/background.png");
+  background-size: cover;
+  padding: 200px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-image: url("images/footer.png");
+  color: white;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 50px;
+}
+#footer a:hover {
+  color: white;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  background-color: rgb(215;214;213);
+  class: div-inline;
+}
+
+#wufoo-zmsnv680hh8ofs {
+  border: solid black;
+  border-radius: 5px;
+  border-color: black;
+  box-shadow: 2px 2px 3px black;
+}
